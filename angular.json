@@ -10,7 +10,7 @@
       },
       "root": "apps/my-student-app/my-stedent",
       "sourceRoot": "apps/my-student-app/my-stedent/src",
-      "prefix": "my-org",
+      "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -136,7 +136,7 @@
       "projectType": "library",
       "root": "libs/theme",
       "sourceRoot": "libs/theme/src",
-      "prefix": "my-org",
+      "prefix": "app",
       "architect": {
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
