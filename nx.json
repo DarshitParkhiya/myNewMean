@@ -28,6 +28,9 @@
     "my-student-app/my-stedent-e2e": {
       "tags": [],
       "implicitDependencies": ["my-student-app-my-stedent"]
+    },
+    "theme": {
+      "tags": []
     }
   }
 }
