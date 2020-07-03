@@ -25,7 +25,10 @@
               "apps/my-student-app/my-stedent/src/favicon.ico",
               "apps/my-student-app/my-stedent/src/assets"
             ],
-            "styles": ["apps/my-student-app/my-stedent/src/styles.scss"],
+            "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "apps/my-student-app/my-stedent/src/styles.scss"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -145,7 +148,10 @@
               "libs/theme/tsconfig.lib.json",
               "libs/theme/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/theme/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/theme/**/*"
+            ]
           }
         },
         "test": {
