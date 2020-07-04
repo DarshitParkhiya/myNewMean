@@ -6,8 +6,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { LayoutComponent } from './components/layout/layout.component';
 
-const UIComponents = [HeaderComponent];
+const UIComponents = [HeaderComponent, LayoutComponent];
 @NgModule({
   imports: [
     MatToolbarModule,
@@ -16,7 +17,7 @@ const UIComponents = [HeaderComponent];
     MatButtonModule,
     MatIconModule,
   ],
-  declarations: [HeaderComponent],
+  declarations: UIComponents,
   exports: UIComponents,
 })
 export class ThemeModule {}
