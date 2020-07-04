@@ -7,10 +7,12 @@ import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { LayoutComponent } from './components/layout/layout.component';
+import { SideNavbarComponent } from './components/side-navbar/side-navbar.component';
 
-const UIComponents = [HeaderComponent, LayoutComponent];
+const UIComponents = [HeaderComponent, LayoutComponent , SideNavbarComponent];
 @NgModule({
   imports: [
+    CommonModule,
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
