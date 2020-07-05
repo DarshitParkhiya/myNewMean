@@ -5,10 +5,19 @@ import { AppComponent } from './app.component';
 import { ThemeModule } from '@my-org/theme';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HomeComponent } from './components/home/home.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
-  declarations: [AppComponent],
-  imports: [BrowserModule, ThemeModule, BrowserAnimationsModule, NgbModule],
+  declarations: [AppComponent, HomeComponent, DashboardComponent],
+  imports: [
+    BrowserModule,
+    ThemeModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    NgbModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

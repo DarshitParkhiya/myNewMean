@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, Input } from '@angular/core';
 import { MatSidenav } from '@angular/material/sidenav';
 
 @Component({
@@ -8,6 +8,7 @@ import { MatSidenav } from '@angular/material/sidenav';
 })
 export class SideNavbarComponent implements OnInit {
   @ViewChild('sidenav') sidenav: MatSidenav;
+
   isExpanded = true;
   showSubmenu = false;
   isShowing = false;
