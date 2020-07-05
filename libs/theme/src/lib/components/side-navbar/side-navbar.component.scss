@@ -1,5 +1,5 @@
 .example-container {
-  height: 93%;
+  height: 86%;
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
 .example-sidenav-content {
@@ -47,3 +47,24 @@ a {
 .spacer {
   flex: 1 1 auto;
 }
+
+.app-footer {
+  min-height: 50px;
+  font-size: 14px;
+  padding: 0 ;
+  /*line-height: $footer-height;*/
+  color: green($color: #000000);
+  vertical-align: middle;
+  margin: auto;
+  display: flex;
+  align-items: center;
+
+
+  .footer-right {
+    justify-content: flex-end;
+    text-align: right;
+    float: right;
+    margin-left: auto;
+  }
+}
+
