@@ -1,3 +1,4 @@
+import { AssetLifecycleComponent } from './components/asset-lifecycle/asset-lifecycle.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
@@ -11,6 +12,10 @@ const routes: Routes = [
   {
     path: 'dashboard',
     component: DashboardComponent,
+  },
+  {
+    path: 'assetlifecycle',
+    component: AssetLifecycleComponent,
   },
 ];
 
